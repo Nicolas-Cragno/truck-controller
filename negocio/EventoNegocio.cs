@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using dominio; //carpeta dentro del proyecto
@@ -21,6 +22,9 @@ namespace negocio
 
                 while (datos.Lector.Read())
                 {
+                    // https://campusmaxiprograma.com/mod/page/view.php?id=1072
+                    // ver como cambiar datos relacionales para que figure nombre del chofer
+
                     Evento auxEvento = new Evento();
                     auxEvento.Id = (int)datos.Lector["id"];
                     auxEvento.Fecha = (DateTime)datos.Lector["fecha"];
@@ -50,6 +54,25 @@ namespace negocio
             {
                 datos.setearConsulta("INSERT INTO eventos (evento, detalle, fecha, chofer, interno) VALUES ('" + nvEv.Tipo + "', ' " + nvEv.Detalle + " ', CURRENT_TIMESTAMP, " + nvEv.DNI_Persona + " , " + nvEv.Nro_Interno + ");" );
                 datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally { datos.cerrarConexion(); }
+        }
+
+        public void modificar(Evento mdEv) // Modificar evento existente en la DB
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("UPDATE eventos SET evento = '" + mdEv.Tipo + "', detalle = '" + mdEv.Detalle + "', chofer = " + mdEv.DNI_Persona + ", interno = " + mdEv.Nro_Interno + " WHERE id = " + mdEv.Id + ";");
+
+                //datos.setearConsulta("UPDATE eventos SET evento = '" + mdEv.Tipo + "' WHERE id = " + mdEv.Id + ";");
+                datos.ejecutarAccion();
+                
             }
             catch (Exception ex)
             {

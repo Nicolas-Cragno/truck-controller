@@ -58,7 +58,7 @@
             this.btnAgregarEventoOK.Name = "btnAgregarEventoOK";
             this.btnAgregarEventoOK.Size = new System.Drawing.Size(75, 23);
             this.btnAgregarEventoOK.TabIndex = 31;
-            this.btnAgregarEventoOK.Text = "Modificar";
+            this.btnAgregarEventoOK.Text = "Agregar";
             this.btnAgregarEventoOK.UseVisualStyleBackColor = true;
             this.btnAgregarEventoOK.Click += new System.EventHandler(this.btnAgregarEventoOK_Click);
             // 
