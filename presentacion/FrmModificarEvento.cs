@@ -64,5 +64,10 @@ namespace presentacion
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void btnModificarEventoCancel_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra la ventana de MODIFICAR EVENTOS sin guardar cambios.
+        }
     }
 }

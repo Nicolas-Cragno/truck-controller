@@ -47,7 +47,7 @@
             this.btnAgregarEventoCancel.Location = new System.Drawing.Point(165, 369);
             this.btnAgregarEventoCancel.Name = "btnAgregarEventoCancel";
             this.btnAgregarEventoCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregarEventoCancel.TabIndex = 32;
+            this.btnAgregarEventoCancel.TabIndex = 10;
             this.btnAgregarEventoCancel.Text = "Cancelar";
             this.btnAgregarEventoCancel.UseVisualStyleBackColor = true;
             this.btnAgregarEventoCancel.Click += new System.EventHandler(this.btnAgregarEventoCancel_Click);
@@ -57,7 +57,7 @@
             this.btnAgregarEventoOK.Location = new System.Drawing.Point(17, 369);
             this.btnAgregarEventoOK.Name = "btnAgregarEventoOK";
             this.btnAgregarEventoOK.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregarEventoOK.TabIndex = 31;
+            this.btnAgregarEventoOK.TabIndex = 9;
             this.btnAgregarEventoOK.Text = "Agregar";
             this.btnAgregarEventoOK.UseVisualStyleBackColor = true;
             this.btnAgregarEventoOK.Click += new System.EventHandler(this.btnAgregarEventoOK_Click);
@@ -67,7 +67,7 @@
             this.tbxAgregarEventoTipo.Location = new System.Drawing.Point(90, 102);
             this.tbxAgregarEventoTipo.Name = "tbxAgregarEventoTipo";
             this.tbxAgregarEventoTipo.Size = new System.Drawing.Size(150, 20);
-            this.tbxAgregarEventoTipo.TabIndex = 28;
+            this.tbxAgregarEventoTipo.TabIndex = 7;
             // 
             // lblAgregarEventoTipo
             // 
@@ -75,7 +75,7 @@
             this.lblAgregarEventoTipo.Location = new System.Drawing.Point(87, 86);
             this.lblAgregarEventoTipo.Name = "lblAgregarEventoTipo";
             this.lblAgregarEventoTipo.Size = new System.Drawing.Size(79, 13);
-            this.lblAgregarEventoTipo.TabIndex = 27;
+            this.lblAgregarEventoTipo.TabIndex = 0;
             this.lblAgregarEventoTipo.Text = "Tipo de evento";
             // 
             // gbxAgregarEventoDescripcion
@@ -84,7 +84,7 @@
             this.gbxAgregarEventoDescripcion.Location = new System.Drawing.Point(17, 141);
             this.gbxAgregarEventoDescripcion.Name = "gbxAgregarEventoDescripcion";
             this.gbxAgregarEventoDescripcion.Size = new System.Drawing.Size(223, 222);
-            this.gbxAgregarEventoDescripcion.TabIndex = 24;
+            this.gbxAgregarEventoDescripcion.TabIndex = 0;
             this.gbxAgregarEventoDescripcion.TabStop = false;
             this.gbxAgregarEventoDescripcion.Text = "Descripción";
             // 
@@ -97,14 +97,14 @@
             this.tbxAgregarEventoDetalle.Multiline = true;
             this.tbxAgregarEventoDetalle.Name = "tbxAgregarEventoDetalle";
             this.tbxAgregarEventoDetalle.Size = new System.Drawing.Size(211, 197);
-            this.tbxAgregarEventoDetalle.TabIndex = 0;
+            this.tbxAgregarEventoDetalle.TabIndex = 8;
             // 
             // tbxAgregarEventoPersona
             // 
             this.tbxAgregarEventoPersona.Location = new System.Drawing.Point(17, 57);
             this.tbxAgregarEventoPersona.Name = "tbxAgregarEventoPersona";
             this.tbxAgregarEventoPersona.Size = new System.Drawing.Size(223, 20);
-            this.tbxAgregarEventoPersona.TabIndex = 23;
+            this.tbxAgregarEventoPersona.TabIndex = 5;
             // 
             // lblAgregarEventoPersona
             // 
@@ -112,7 +112,7 @@
             this.lblAgregarEventoPersona.Location = new System.Drawing.Point(14, 41);
             this.lblAgregarEventoPersona.Name = "lblAgregarEventoPersona";
             this.lblAgregarEventoPersona.Size = new System.Drawing.Size(38, 13);
-            this.lblAgregarEventoPersona.TabIndex = 22;
+            this.lblAgregarEventoPersona.TabIndex = 0;
             this.lblAgregarEventoPersona.Text = "Chofer";
             // 
             // lblAgregarEventoTitulo
@@ -122,7 +122,7 @@
             this.lblAgregarEventoTitulo.Location = new System.Drawing.Point(56, 9);
             this.lblAgregarEventoTitulo.Name = "lblAgregarEventoTitulo";
             this.lblAgregarEventoTitulo.Size = new System.Drawing.Size(147, 25);
-            this.lblAgregarEventoTitulo.TabIndex = 19;
+            this.lblAgregarEventoTitulo.TabIndex = 0;
             this.lblAgregarEventoTitulo.Text = "Nuevo Evento";
             // 
             // tbxAgregarEventoTractor
@@ -130,7 +130,7 @@
             this.tbxAgregarEventoTractor.Location = new System.Drawing.Point(17, 102);
             this.tbxAgregarEventoTractor.Name = "tbxAgregarEventoTractor";
             this.tbxAgregarEventoTractor.Size = new System.Drawing.Size(52, 20);
-            this.tbxAgregarEventoTractor.TabIndex = 34;
+            this.tbxAgregarEventoTractor.TabIndex = 6;
             // 
             // lblAgregarEventoTractor
             // 
@@ -138,7 +138,7 @@
             this.lblAgregarEventoTractor.Location = new System.Drawing.Point(14, 86);
             this.lblAgregarEventoTractor.Name = "lblAgregarEventoTractor";
             this.lblAgregarEventoTractor.Size = new System.Drawing.Size(41, 13);
-            this.lblAgregarEventoTractor.TabIndex = 33;
+            this.lblAgregarEventoTractor.TabIndex = 0;
             this.lblAgregarEventoTractor.Text = "Tractor";
             // 
             // frmAgregarEvento

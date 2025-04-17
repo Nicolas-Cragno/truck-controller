@@ -50,7 +50,7 @@
             this.lblModificarEventoTitulo.Location = new System.Drawing.Point(12, 9);
             this.lblModificarEventoTitulo.Name = "lblModificarEventoTitulo";
             this.lblModificarEventoTitulo.Size = new System.Drawing.Size(105, 25);
-            this.lblModificarEventoTitulo.TabIndex = 1;
+            this.lblModificarEventoTitulo.TabIndex = 0;
             this.lblModificarEventoTitulo.Text = "Evento n°";
             // 
             // tbxModificarEventoTractor
@@ -58,7 +58,7 @@
             this.tbxModificarEventoTractor.Location = new System.Drawing.Point(17, 103);
             this.tbxModificarEventoTractor.Name = "tbxModificarEventoTractor";
             this.tbxModificarEventoTractor.Size = new System.Drawing.Size(52, 20);
-            this.tbxModificarEventoTractor.TabIndex = 43;
+            this.tbxModificarEventoTractor.TabIndex = 12;
             // 
             // lblModificarEventoTractor
             // 
@@ -66,7 +66,7 @@
             this.lblModificarEventoTractor.Location = new System.Drawing.Point(14, 87);
             this.lblModificarEventoTractor.Name = "lblModificarEventoTractor";
             this.lblModificarEventoTractor.Size = new System.Drawing.Size(41, 13);
-            this.lblModificarEventoTractor.TabIndex = 42;
+            this.lblModificarEventoTractor.TabIndex = 0;
             this.lblModificarEventoTractor.Text = "Tractor";
             // 
             // btnModificarEventoCancel
@@ -74,16 +74,17 @@
             this.btnModificarEventoCancel.Location = new System.Drawing.Point(165, 370);
             this.btnModificarEventoCancel.Name = "btnModificarEventoCancel";
             this.btnModificarEventoCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnModificarEventoCancel.TabIndex = 41;
+            this.btnModificarEventoCancel.TabIndex = 16;
             this.btnModificarEventoCancel.Text = "Cancelar";
             this.btnModificarEventoCancel.UseVisualStyleBackColor = true;
+            this.btnModificarEventoCancel.Click += new System.EventHandler(this.btnModificarEventoCancel_Click);
             // 
             // btnModificarEventoOK
             // 
             this.btnModificarEventoOK.Location = new System.Drawing.Point(17, 370);
             this.btnModificarEventoOK.Name = "btnModificarEventoOK";
             this.btnModificarEventoOK.Size = new System.Drawing.Size(75, 23);
-            this.btnModificarEventoOK.TabIndex = 40;
+            this.btnModificarEventoOK.TabIndex = 15;
             this.btnModificarEventoOK.Text = "Guardar";
             this.btnModificarEventoOK.UseVisualStyleBackColor = true;
             this.btnModificarEventoOK.Click += new System.EventHandler(this.btnModificarEventoOK_Click);
@@ -93,7 +94,7 @@
             this.tbxModificarEventoTipo.Location = new System.Drawing.Point(90, 103);
             this.tbxModificarEventoTipo.Name = "tbxModificarEventoTipo";
             this.tbxModificarEventoTipo.Size = new System.Drawing.Size(150, 20);
-            this.tbxModificarEventoTipo.TabIndex = 39;
+            this.tbxModificarEventoTipo.TabIndex = 13;
             // 
             // lblModificarEventoTipo
             // 
@@ -101,7 +102,7 @@
             this.lblModificarEventoTipo.Location = new System.Drawing.Point(87, 87);
             this.lblModificarEventoTipo.Name = "lblModificarEventoTipo";
             this.lblModificarEventoTipo.Size = new System.Drawing.Size(79, 13);
-            this.lblModificarEventoTipo.TabIndex = 38;
+            this.lblModificarEventoTipo.TabIndex = 0;
             this.lblModificarEventoTipo.Text = "Tipo de evento";
             // 
             // gbxModificarEventoDescripcion
@@ -110,7 +111,7 @@
             this.gbxModificarEventoDescripcion.Location = new System.Drawing.Point(17, 142);
             this.gbxModificarEventoDescripcion.Name = "gbxModificarEventoDescripcion";
             this.gbxModificarEventoDescripcion.Size = new System.Drawing.Size(223, 222);
-            this.gbxModificarEventoDescripcion.TabIndex = 37;
+            this.gbxModificarEventoDescripcion.TabIndex = 0;
             this.gbxModificarEventoDescripcion.TabStop = false;
             this.gbxModificarEventoDescripcion.Text = "Descripción";
             // 
@@ -123,14 +124,14 @@
             this.tbxModificarEventoDetalle.Multiline = true;
             this.tbxModificarEventoDetalle.Name = "tbxModificarEventoDetalle";
             this.tbxModificarEventoDetalle.Size = new System.Drawing.Size(211, 197);
-            this.tbxModificarEventoDetalle.TabIndex = 0;
+            this.tbxModificarEventoDetalle.TabIndex = 14;
             // 
             // tbxModificarEventoPersona
             // 
             this.tbxModificarEventoPersona.Location = new System.Drawing.Point(17, 58);
             this.tbxModificarEventoPersona.Name = "tbxModificarEventoPersona";
             this.tbxModificarEventoPersona.Size = new System.Drawing.Size(223, 20);
-            this.tbxModificarEventoPersona.TabIndex = 36;
+            this.tbxModificarEventoPersona.TabIndex = 11;
             // 
             // lblModificarEventoPersona
             // 
@@ -138,7 +139,7 @@
             this.lblModificarEventoPersona.Location = new System.Drawing.Point(14, 42);
             this.lblModificarEventoPersona.Name = "lblModificarEventoPersona";
             this.lblModificarEventoPersona.Size = new System.Drawing.Size(38, 13);
-            this.lblModificarEventoPersona.TabIndex = 35;
+            this.lblModificarEventoPersona.TabIndex = 0;
             this.lblModificarEventoPersona.Text = "Chofer";
             // 
             // lblModificarEventoIdEvento
@@ -155,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(254, 435);
+            this.ClientSize = new System.Drawing.Size(258, 408);
             this.Controls.Add(this.lblModificarEventoIdEvento);
             this.Controls.Add(this.tbxModificarEventoTractor);
             this.Controls.Add(this.lblModificarEventoTractor);
